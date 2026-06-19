@@ -130,16 +130,14 @@ export default function Pricing() {
               </div>
             </div>
 
-            {/* Right side: Highlight pricing & CTA */}
-            <div className="lg:col-span-5 flex flex-col justify-center items-center rounded-xl bg-bg-primary/50 border border-border-subtle p-6 text-center lg:p-8">
-              <span className="text-xs font-semibold uppercase tracking-wider text-brand-gold/80 bg-brand-gold/10 px-3 py-1 rounded-full mb-2 border border-brand-gold/20">
+            {/* Right side: CTA */}
+            <div className="lg:col-span-5 flex flex-col justify-center items-center rounded-xl bg-bg-primary/50 border border-border-subtle p-6 text-center lg:p-8 gap-5">
+              <span className="text-xs font-semibold uppercase tracking-wider text-brand-gold/80 bg-brand-gold/10 px-3 py-1 rounded-full border border-brand-gold/20">
                 Lifetime Access
               </span>
-              <p className="text-xs text-text-secondary mb-1">Investasi Sekali</p>
-              <p className="text-4xl font-extrabold text-brand-gold sm:text-5xl tracking-tight mb-6">
-                Rp399.000
+              <p className="text-sm text-text-secondary leading-relaxed">
+                Hubungi kami sekarang dan dapatkan akses penuh tanpa batas waktu.
               </p>
-
               <a
                 href="https://wa.me/6281339559915?text=Halo%20Tim%20Arch-Gen,%20saya%20ingin%20mendaftar%20membership."
                 target="_blank"
@@ -161,17 +159,6 @@ export default function Pricing() {
           </div>
         </div>
 
-        {/* Mobile-only Buka Aplikasi Button */}
-        <div className="mt-6 md:hidden max-w-3xl mx-auto">
-          <a
-            href="https://archgen.indovma.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-orange-500 text-sm font-semibold text-white transition-all duration-300 hover:bg-orange-600 animate-orange-pulse shadow-lg shadow-orange-500/20"
-          >
-            Buka Aplikasi
-          </a>
-        </div>
       </div>
     </section>
   );
