@@ -16,7 +16,7 @@ export default function Portfolio() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Hasil Karya <span className="text-brand-gold">Arch-Gen</span>
+            Output Visual <span className="text-brand-gold">Arch-Gen</span>
           </h2>
           <p className="mt-4 text-text-secondary">
             Lihat langsung hasil visualisasi arsitektural yang telah dihasilkan oleh Arch-Gen by indovma.
