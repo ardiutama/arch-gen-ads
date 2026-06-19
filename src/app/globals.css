@@ -41,3 +41,19 @@ html {
   opacity: 0;
 }
 
+@keyframes orangePulse {
+  0%, 100% { 
+    transform: scale(1); 
+    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.4); 
+  }
+  50% { 
+    transform: scale(1.04); 
+    box-shadow: 0 0 16px 6px rgba(249, 115, 22, 0.7); 
+  }
+}
+
+.animate-orange-pulse {
+  animation: orangePulse 2s infinite ease-in-out;
+}
+
+

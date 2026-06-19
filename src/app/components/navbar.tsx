@@ -41,7 +41,7 @@ export default function Navbar() {
             href={APP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-9 items-center rounded-lg bg-brand-gold px-4 text-sm font-semibold text-bg-primary transition-all hover:bg-brand-gold-light"
+            className="inline-flex h-9 items-center rounded-lg bg-orange-500 px-4 text-sm font-semibold text-white transition-all hover:bg-orange-600 animate-orange-pulse shadow-lg shadow-orange-500/20"
           >
             Buka Aplikasi
           </a>
@@ -74,7 +74,7 @@ export default function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setOpen(false)}
-              className="mt-2 flex items-center justify-center rounded-lg bg-brand-gold py-2.5 text-sm font-semibold text-bg-primary"
+              className="mt-2 flex items-center justify-center rounded-lg bg-orange-500 py-2.5 text-sm font-semibold text-white animate-orange-pulse"
             >
               Buka Aplikasi
             </a>
