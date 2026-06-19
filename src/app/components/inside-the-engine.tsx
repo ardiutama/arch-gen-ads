@@ -96,7 +96,7 @@ export default function InsideTheEngine() {
     <section
       id="engine"
       ref={sectionRef}
-      className="relative px-6 py-24 overflow-hidden bg-bg-primary border-t border-border-subtle"
+      className="relative px-6 py-12 md:py-16 overflow-hidden bg-bg-primary border-t border-border-subtle"
     >
       {/* Background Glows */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-gold/5 rounded-full blur-[120px]" />
